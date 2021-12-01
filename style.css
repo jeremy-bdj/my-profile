@@ -1,0 +1,102 @@
+body {
+	background-color : #1A535C;
+	color : #001D4A;
+	font-family: 'Outfit', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+h1 {
+	color: #006992;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 28px;
+}
+
+h2 {
+	color: #53B8BB;
+	font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+#main-div {
+	width: 800px;
+	margin: 40px auto;
+}
+
+.section-white {
+	background: white;
+	padding: 40px;
+	margin: 30px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.btn {
+	background-color: #1A535C;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: #53B8BB;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #03254E;
+}
+
+.list-inline i:hover {
+	font-size: inline;
+	color: #9CAFB7;
+}
+
+#first p {
+	margin-bottom: 40px
+}
+
+@media (max-width: 1000px) {
+	#main-div {
+		width: 650px;
+	}
+}
+
+@media (max-width: 800px) {
+	#main-div {
+		width: 500px;
+	}
+}
+
+@media (max-width: 600px) {
+	#main-div {
+		width: 400px;
+	}
+}
+
